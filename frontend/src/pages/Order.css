@@ -1,0 +1,35 @@
+.order-page {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  animation: fadeIn 1s ease;
+}
+
+.order-summary {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #ff5722;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.order-message {
+  margin-top: 15px;
+  font-weight: bold;
+}

@@ -6,6 +6,9 @@ import userRouter from './routes/userRoute.js';
 import 'dotenv/config';
 import cartRouter from './routes/cartRoute.js';
 import orderRouter from './routes/orderRoute.js';
+import restaurantRoutes from './routes/restaurantRoutes.js';
+app.use('/api/restaurant', restaurantRoutes);
+
 
 //app config
 const app = express()

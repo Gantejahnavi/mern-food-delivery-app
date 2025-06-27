@@ -12,9 +12,11 @@
     border-radius: 15px 15px 0px 0px;
 }
 
-.food-item-info{
-    padding: 20px;
+.food-item-info {
+  padding: 20px;
+  text-align: center;
 }
+
 
 .food-item-name-rating{
     display: flex;
@@ -57,18 +59,51 @@
     border-radius: 50%;
 }
 
-.food-item-counter{
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 6px;
-    border-radius: 50px;
-    background-color: white;
+.food-item-counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  padding: 6px 12px;
+  border-radius: 25px;
+  background-color: #f8f8f8;
+  width: fit-content;
 }
+
 
 .food-item-counter img{
     width: 30px;
+}
+.add-to-cart-btn {
+  margin-top: 10px;
+  background-color: #ff5722;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #e64a19;
+}
+
+.counter-btn {
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.counter-btn:hover {
+  background-color: #ddd;
 }

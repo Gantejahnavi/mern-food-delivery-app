@@ -150,3 +150,37 @@ background-color: #fff4f2;
         display: none;
     } 
 }
+/* 🌙 Late Night Special Style */
+.navbar-menu .latenight {
+  color: #FFD700;
+  font-weight: 600;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+}
+
+.navbar-menu .latenight:hover {
+  color: #fff;
+  text-shadow: 0 0 12px #FFD700, 0 0 20px #FFD700;
+  transform: scale(1.05);
+}
+.logo-text {
+  font-size: 26px;
+  font-weight: 800;
+  color: #ff5722;
+  text-decoration: none;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.logo-text .highlight {
+  color: #333;
+}
+.restaurant-login-link {
+  margin-left: 20px;
+  /* font-weight: bold; */
+  /* color: #ff5722; */
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+
